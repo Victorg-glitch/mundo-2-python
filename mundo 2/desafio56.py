@@ -37,5 +37,6 @@ elif idade[2] > idade[0] and idade[2] > idade[1] and idade[2] > idade[3]: #pesso
 elif idade[3] > idade[0] and idade[3] > idade[1] and idade[3] > idade[2]: #pessoa4
     maior_idade = nome[3]
 
-print(f'''a pessoa que tem a maior idade é {maior_idade}
-{len(menor21)} tem menos de 21 anos.''')
+print(f'''A pessoa que tem a maior idade é {maior_idade}
+{len(menor21)} tem menos de 21 anos.
+e  a media de idade das pessoas é de {media} anos''')
