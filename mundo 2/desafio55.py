@@ -1,4 +1,4 @@
-peso = 0
+'''peso = 0
 maior = []
 for c in range(5):
     peso = float(input('Digite o seu peso: '))
@@ -15,3 +15,20 @@ elif maior[3] > maior[0] and maior[3] > maior[1] and maior[3] > maior[2] and mai
 else:
     print(f'O peso maior é {maior[4]}')
 print(maior)
+''' #Minha resposta
+
+#Reposta do professor
+maior = 0
+menor = 0
+for p in range(1, 6):
+    peso = float(input(f'Peso da {p}° pessoa: '))
+    if p == 1:
+        maior = peso
+        menor = peso
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
+print(f'O maior peso lido foi de {maior}Kg')
+print(f'O menor peso lido foi de {menor}Kg')
